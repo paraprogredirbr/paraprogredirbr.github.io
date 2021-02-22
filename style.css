@@ -21,3 +21,9 @@ h1 {
 strong {
     color: gray;
 }
+
+a:link {
+    color: #afafaf;
+    background-color: transparent;
+    text-decoration: none;
+}
