@@ -18,6 +18,29 @@ header {
     height: 200px;
 }
 
+footer {
+    background: #234c6c;
+    height: 50px;
+}
+
+body>footer {
+    display: table-row;
+}
+
+h1 {
+    color: white;
+}
+
+strong {
+    color: gray;
+}
+
+a:link {
+    color: #afafaf;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -36,25 +59,27 @@ header {
     color: white;
 }
 
-h1 {
-    color: white;
+.topnav {
+    background-color: #234c6c;
+    overflow: hidden;
+    border: 1px groove gray;
 }
 
-strong {
-    color: gray;
-}
-
-a:link {
-    color: #afafaf;
-    background-color: transparent;
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
     text-decoration: none;
+    font-size: 14px;
 }
 
-footer {
-    background: #234c6c;
-    height: 50px;
+.topnav a:hover {
+    background-color: #afafaf;
+    color: black;
 }
 
-body>footer {
-    display: table-row;
+.topnav a.active {
+    background-color: #3b527c;
+    color: white;
 }
