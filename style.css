@@ -1,9 +1,15 @@
 html {
     background-color: #2e2e2e;
     font-size: 20px;
+    height: 100%;
 }
 
-.header {
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+header {
     background: #234c6c;
     height: 200px;
 }
@@ -12,6 +18,18 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.right-bottom {
+    display: block;
+    position: inherit;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
+}
+
+.white-text {
+    color: white;
 }
 
 h1 {
@@ -26,4 +44,18 @@ a:link {
     color: #afafaf;
     background-color: transparent;
     text-decoration: none;
+}
+
+footer {
+    background: #234c6c;
+    height: 50px;
+}
+
+body {
+    display: table;
+    width: 100%;
+}
+
+body>footer {
+    display: table-row;
 }
