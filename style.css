@@ -55,13 +55,6 @@ footer {
     height: 50px;
 }
 
-
-/*body {
-    display: table;
-    width: 100%;
-}
-*/
-
 body>footer {
     display: table-row;
 }
