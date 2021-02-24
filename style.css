@@ -1,11 +1,11 @@
 html {
     background-color: #090909;
     font-size: 20px;
-    height: 120%;
+    height: 100%;
 }
 
 body {
-    width: 85%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
     background-color: #2e2e2e;
@@ -81,4 +81,10 @@ a:link {
 .topnav a.active {
     background-color: #3b527c;
     color: white;
+}
+
+.content {
+    background: #c0c0c031;
+    padding: 10px 20px 10px 20px;
+    margin: 10px auto;
 }
