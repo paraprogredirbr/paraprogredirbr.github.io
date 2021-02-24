@@ -62,7 +62,6 @@ a:link {
 .topnav {
     background-color: #234c6c;
     overflow: hidden;
-    border: 1px groove gray;
 }
 
 .topnav a {
