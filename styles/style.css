@@ -59,32 +59,51 @@ a:link {
     color: white;
 }
 
-.topnav {
-    background-color: #234c6c;
-    overflow: hidden;
+.tab-control {
+    width: 100%;
 }
 
-.topnav a {
+.tab-control #topnav {
+    background-color: #234c6c;
+    overflow: hidden;
+    cursor: hand;
+}
+
+.tab-control .tabs {
+    display: inline;
+    list-style-type: none;
+}
+
+.tab-control .tabs li {
     float: left;
+}
+
+.tab {
     color: #f2f2f2;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
     font-size: 14px;
+    cursor: pointer;
 }
 
-.topnav a:hover {
+.tab:hover {
     background-color: #afafaf;
     color: black;
 }
 
-.topnav a.active {
+.active {
     background-color: #3b527c;
     color: white;
 }
 
-.content {
+.tab-control #content {
     background: #c0c0c031;
     padding: 10px 20px 10px 20px;
     margin: 10px auto;
+}
+
+.tab-content {
+    display: none;
+    color: white;
 }
