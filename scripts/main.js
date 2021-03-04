@@ -8,5 +8,7 @@ $(document).ready(function() {
         indice++;
         $("#content div").hide();
         $("#content div:nth-child(" + indice + ")").show();
+        $("#content div:nth-child(" + indice + ")").children().show();
+        $("#content div:nth-child(" + indice + ")").children().children().show();
     });
 });

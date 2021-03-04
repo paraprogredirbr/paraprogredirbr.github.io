@@ -27,8 +27,20 @@ body>footer {
     display: table-row;
 }
 
-h1 {
+p {
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 strong {
@@ -106,4 +118,23 @@ a:link {
 .tab-content {
     display: none;
     color: white;
+}
+
+.member-tag {
+    width: 90%;
+    background-color: #234c6c6b;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto;
+}
+
+.member-img {
+    float: left;
+    border: 1px solid white;
+    display: inline;
+    margin-right: 10px;
+}
+
+.member-bio {
+    display: inline;
+    width: 70%;
 }
