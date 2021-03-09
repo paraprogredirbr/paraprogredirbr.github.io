@@ -7,8 +7,6 @@ $(document).ready(function() {
         var indice = $(this).parent().index();
         indice++;
         $("#content div").hide();
-        $("#content div:nth-child(" + indice + ")").show();
-        $("#content div:nth-child(" + indice + ")").children().show();
-        $("#content div:nth-child(" + indice + ")").children().children().show();
+        $("#content div:nth-child(" + indice + ")").show().find("*").show();
     });
 });
